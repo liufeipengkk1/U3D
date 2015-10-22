@@ -94,9 +94,7 @@
 		}
 		
 		
-		// add specular Light
-		
-		//Pass{}
+	
 		Pass
 		{
 			Tags{"LightMode" = "ForwardAdd"}
