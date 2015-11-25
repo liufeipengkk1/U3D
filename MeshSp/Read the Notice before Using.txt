@@ -1,0 +1,19 @@
+How to use: 
+i package this to a component.after import this package,you can add the component to your GameObject in the "component/Mesh splitting"
+
+splittable: when the object is added this component,the object can be splitted by object with splitter component.
+splitter:when the object is added this component,the object can be splite the splitable object
+
+
+Notice for User:
+Splittable GameObject : the collider of the Splittable GameObject must be set to Mesh Collider,and the collider convex is set to true;
+Splitter GameObject : "is trigger" of collider must be set to true;
+
+
+
+About the GameObject the Component can deal with :
+the Component Can deal with the Convex Shape correctly...............Just Only   
+
+
+
+MoxiLiu   T.T
