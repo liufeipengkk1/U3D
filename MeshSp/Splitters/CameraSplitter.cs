@@ -83,8 +83,8 @@ public class CameraSplitter : MonoBehaviour {
 		cutTransform.localScale = new Vector3(CutPlaneSize, 0.001f, CutPlaneSize);
 		cutTransform.up = cutPlaneNormal;
 
-		// 现在创建出来经测试是平的，所以需要旋转
-		float angleFwd = Vector3.Angle(cutTransform.forward,cutPlaneForward);
-		cutTransform.RotateAround(cutPlanePos, cutPlaneNormal, cutPlaneNormal.y < 0f ? -angleFwd : angleFwd);
+		//float angleFwd = Vector3.Angle(cutTransform.up,cutPlaneForward);
+		//cutTransform.RotateAround(cutPlanePos, cutPlaneNormal, cutPlaneNormal.y < 0f ? -angleFwd : angleFwd);
+
 	}
 }
